@@ -156,7 +156,13 @@ button {
   height: 550px;
 }
 
+.clearfix {
+  clear: both;
+}
+
 @media (max-width: 980px) {
+  
+  /* body sections for index, contact and portfolio */
   .section2 {
     width: 100%;
     padding-bottom: 70px;
@@ -169,16 +175,34 @@ button {
   }
 
   .profileimg {
-    margin-left: 15%;
+    margin-left: 5%;
   }
-
+  
+  body {
+    height: 50%;
+  }
+  
+  /* header section */
   .section1 {
-    padding-right: 40%;
+    width: 30%;
+    padding-right: 0px;
+    margin-left: 0%;
+    margin-right: 0%
+    
   }
 
-  .navsection {
-    background: red;
-    width: 100%;
+  .nav1 {
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+
+  ul {
+    margin-right: 0px;
+    
+  } 
+
+  header {
+    height: 60px;
   }
 }
 
@@ -187,4 +211,5 @@ button {
 }
 
 @media (max-width: 640px) {
+  /* Same as max-width:980px */
 }

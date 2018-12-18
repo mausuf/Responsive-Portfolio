@@ -193,18 +193,16 @@ html {
   
     .nav1 {
       padding-left: 30%;
-      padding-top: 1.8%;
+      padding-top: 0.001%;
       border-bottom: gray solid 2px;
     }
     ul {
       margin-right: 0px;
+      margin-top: 4.5%;
       
     } 
   
-    header {
-      height: 60px;
-  
-    }
+
   }
   
   @media (max-width: 768px) {
@@ -218,28 +216,20 @@ html {
   
     .nav1 {
       padding-left: 50px;
-      padding-top: 0.1%;
+      padding-top: 0.001%;
       border-bottom: gray solid 2px;
     }
+    ul {
+      margin-right: 0px;
+      margin-top: 1.5%;
+      
+    } 
   }
   
 
 
   @media (max-width: 640px) {
     /* Same as max-width:768px */
-    .section1 {
-      width: 30%;
-      padding-right: 0px;
-      margin-left: 0%;
-      margin-right: 0%;
-      
-    }
-  
-    .nav1 {
-      padding-left: 50px;
-      padding-top: 0.1%;
-      border-bottom: gray solid 2px;
-    } 
     
 
   }

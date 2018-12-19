@@ -165,12 +165,12 @@ html {
     /* body sections for index, contact and portfolio */
     .section2 {
       width: 100%;
-      padding-bottom: 70px;
+      padding-bottom: 20px;
     }
   
     .portfoliosection {
       width: 100%;
-      height: 600px;
+      height: 400px;
       padding-bottom: 150px;
     }
   
@@ -193,7 +193,7 @@ html {
   
     .nav1 {
       padding-left: 30%;
-      padding-top: 0.001%;
+      padding-top: 0%;
       border-bottom: gray solid 2px;
     }
     ul {
@@ -210,20 +210,25 @@ html {
       width: 30%;
       padding-right: 0px;
       margin-left: 0%;
-      margin-right: 0%;
-      
+    
     }
   
     .nav1 {
       padding-left: 50px;
-      padding-top: 0.001%;
       border-bottom: gray solid 2px;
     }
     ul {
-      margin-right: 0px;
-      margin-top: 1.5%;
-      
+      margin-right: 200px;
+      margin-top: 0px;
+      margin-bottom: 20px;
     } 
+
+    .portfoliosection {
+      width: 100%;
+      height: 600px;
+      margin-bottom: 250px;
+    }
+
   }
   
 
@@ -233,3 +238,12 @@ html {
     
 
   }
+
+  @media (max-width: 500px) {
+
+  .portfoliosection {
+    width: 100%;
+    height: 1000px;
+    margin-bottom: 250px;
+  }
+}
